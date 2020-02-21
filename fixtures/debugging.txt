@@ -1,0 +1,18 @@
+# debug line number:position type value
+token: 1:1 LBRACE {
+    token: 1:2 STRING "TeaPot" token: 1:10 COLON : 
+    token: 1:11 LBRACE {
+        token: 1:12 STRING "Size" token: 1:18 COLON :token: 1:19 STRING "Little"
+        token: 1:27 COMMA ,
+token: 1:28 STRING "Stature"
+token: 1:37 COLON :
+token: 1:38 LBRACK [
+token: 1:39 STRING "Short"
+token: 1:46 COMMA ,
+token: 1:47 STRING "Stout"
+token: 1:54 RBRACK ]
+token: 1:55 RBRACE }
+token: 1:56 RBRACE }
+
+miscellaneous debugging
+[- STRING "TeaPot" - STRING "Size" - STRING "Little" - STRING "Stature" - STRING "Short" - STRING "Stout"]
